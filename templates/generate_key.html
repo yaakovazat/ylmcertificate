@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>一路梦生成秘钥系统</title>
-    <link rel="stylesheet" href="/static/css/generate.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static "/css/generate.css"%}">
 </head>
 <body>
 <form action="/key/" method="post" class="smart-green">{% csrf_token %}
