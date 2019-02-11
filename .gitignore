@@ -4,4 +4,4 @@ myvenv
 db.sqlite3
 .DS_Store
 form
-venv
+venv/
