@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>状态提示</title>
+    <link rel="stylesheet" href="/static/css/status.css">
+</head>
+<body>
+<form action="/form/" method="post" class="smart-green">
+    <h1>状态提示:
+        <!--<span>请如实填写以下信息以便为您制作授权书.</span>-->
+    </h1>
+    <!--<label>-->
+        <!--<span>姓名 :</span>-->
+        <!--<input id="name" type="text" name="name" class="error" placeholder="请输入您的中文姓名(与身份证一致)"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>身份证号 :</span>-->
+        <!--<input id="ID" type="text" name="ID" class="error" placeholder="请输入您的身份证号"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>手机号 :</span>-->
+        <!--<input id="telephone" type="text" name="telephone" class="error" placeholder="请输入您的姓名"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>微信号 :</span>-->
+        <!--<input id="Wechat_ID" type="text" name="Wechat_ID" class="error" placeholder="请输入您的微信号"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>邮箱 :</span>-->
+        <!--<input id="email" type="email" value="" name="email" placeholder="请输入邮箱地址"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>联系地址 :</span>-->
+        <!--<input id="address" type="text" value="" name="address" placeholder="请输入您的详细联系地址"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>职业 :</span>-->
+        <!--<input id="profession" type="text" name="profession" class="error" placeholder="请输入您的职业"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>工作单位(学校) :</span>-->
+        <!--<input id="workPlace" type="text" name="workPlace" class="error" placeholder="请输入您的工作单位"/>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+
+    <!--<label>-->
+        <!--<span>留言 :</span>-->
+        <!--<textarea id="message" name="message"  placeholder="请输入你的建议"></textarea>-->
+        <!--<div class="error-msg"></div>-->
+    <!--</label>-->
+    <!--<div class="success-msg"></div>-->
+    <!--<label>-->
+        <!--<span></span>-->
+        <!--<input type="submit" class="button" value="提交"/>-->
+    <!--</label>-->
+    <!--<picture> 备注:鼠标右击&ndash;&gt;点击"保存图像" 或者"保存图像为" 之后按提示保存即可! </picture>-->
+    <!--<input type='hidden' name='csrfmiddlewaretoken' value='SfHkbL4feo1G00sJQtbO7TtLN4c2BUwa' />-->
+    <!--<picture><img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="一路梦授权书" align="middle"></picture>-->
+    <label>
+        <picture>
+            <pre>{{ message }}</pre>
+        </picture>
+    </label>
+    {% load static %}
+    <label>
+        {% load staticfiles %}
+        <img src="{% static image %}" width="100%">
+    </label>
+</form>
+<!--<img src="http://www.w3school.com.cn/i/eg_tulip.jpg"  alt="上海鲜花港 - 郁金香" />-->
+{#<div class="smart-green">#}
+{#    <picture><img src="{{ img }}"></picture>#}
+<div class="smart-green">
+    <input type="button" class="button" value="返回授权页" onclick="location.href='{% url 'index' %}'">
+    <input type="button" class="button" value="返回代理状态查询页" onclick="location.href='{% url 'index' %}'">
+{#    <img src="{{ image }}" class="smart-green">#}
+</div>
+</body>
+</html>
