@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from agentkeys.models import Agent
 from .typeW import typeWords
+from azat import ROOT_DIR
 import os
 from status.models import Bridge
 import json
@@ -17,7 +18,7 @@ def certificate(request):
         work_place = request.POST.get('workPlace')
         message = request.POST.get('message')
         if(name!='' and idcard!='' and wechat!='' and email!='' and address!='' and profession!='' and work_place!='' and message!=''):
-            with open("log/current.json") as f:
+            with open(os.path.join(ROOT_DIR,"log/current.json")) as f:
                 current = json.loads(f.read())
             key_num = current['key']
             image_src = typeWords(name,idcard,key_num)
