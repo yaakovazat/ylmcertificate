@@ -17,7 +17,7 @@ def typeWords(name,id_num,key_num):
     image = Image.open(muban)
     # target=image.copy()
     # 设置字体的字体和大小
-    font_src = os.path.join(BASE_URL,'static/font/font.ttf')
+    font_src = os.path.join(ROOT_DIR,'static/font/font.ttf')
     font = ImageFont.truetype(font_src, 80)
     fontk = ImageFont.truetype(font_src, 100)
     font_d = ImageFont.truetype(font_src, 50)
@@ -54,7 +54,7 @@ def typeWords(name,id_num,key_num):
     # target = Image.new("RGB", (128, 128), "#FF0000")
     # target.save(os.path.join(BASE_URL,"static/image/generated/%s.png"%key_num))
     # base=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath('__file__'))))
-    base = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    base = ROOT_DIR
     # base=os.getcwd()
     target = os.path.join(base,'static/image/certificates')
     # image.save(os.path.join('%s.png'%key_num),'png')
