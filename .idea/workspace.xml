@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/generate/typeW.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/generate/typeW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/certificate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certificate.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/certificate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -100,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/generate/typeW.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -126,18 +135,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
-                <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -175,7 +172,6 @@
         <option value="$PROJECT_DIR$/apps/generate/type.py" />
         <option value="$PROJECT_DIR$/apps/status/models.py" />
         <option value="$PROJECT_DIR$/templates/final.html" />
-        <option value="$PROJECT_DIR$/templates/certificate.html" />
         <option value="$PROJECT_DIR$/certificate/urls.py" />
         <option value="$PROJECT_DIR$/templates/status.html" />
         <option value="$PROJECT_DIR$/apps/status/views.py" />
@@ -188,6 +184,7 @@
         <option value="$PROJECT_DIR$/apps/status/log.py" />
         <option value="$PROJECT_DIR$/apps/generate/views.py" />
         <option value="$PROJECT_DIR$/apps/generate/typeW.py" />
+        <option value="$PROJECT_DIR$/templates/certificate.html" />
       </list>
     </option>
   </component>
@@ -217,8 +214,7 @@
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +366,7 @@
       <updated>1549799441086</updated>
       <workItem from="1549799442193" duration="2520000" />
       <workItem from="1549802116534" duration="626000" />
-      <workItem from="1549874943068" duration="4626000" />
+      <workItem from="1549874943068" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -442,11 +438,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549879861500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated tyword fuction and it's root directory">
+      <created>1549880016233</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549880016233</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change target directory ,not using the base function but using the root dir that from azart.p">
+      <created>1549880158096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549880158096</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38955000" />
+    <option name="totallyTimeSpent" value="39263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="0" width="1920" height="1080" extended-state="0" />
@@ -490,7 +500,9 @@
     <MESSAGE value="opened the debug mode" />
     <MESSAGE value="试着用 azat.py 的方式解决问题" />
     <MESSAGE value="updated genetrate.view de log json" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated genetrate.view de log json" />
+    <MESSAGE value="updated tyword fuction and it's root directory" />
+    <MESSAGE value="change target directory ,not using the base function but using the root dir that from azart.p" />
+    <option name="LAST_COMMIT_MESSAGE" value="change target directory ,not using the base function but using the root dir that from azart.p" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -644,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/certificate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -733,11 +738,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/generate/typeW.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/certificate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
