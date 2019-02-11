@@ -4,6 +4,7 @@ from datetime import datetime
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
+from azat import ROOT_DIR
 #设置字体，如果没有，也可以不设置
 # font = ImageFont.truetype("/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf",13)
 
@@ -11,7 +12,7 @@ from PIL import ImageFont
 BASE_URL =os.getcwd()
 def typeWords(name,id_num,key_num):
 # def type():
-    muban = os.path.join(BASE_URL,'static/image/certificate.png')
+    muban = os.path.join(ROOT_DIR,'static/image/certificate.png')
     #导入需要修改的图片
     image = Image.open(muban)
     # target=image.copy()
