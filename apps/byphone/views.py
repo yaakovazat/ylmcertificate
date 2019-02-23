@@ -17,6 +17,6 @@ def phone(request):
         #     ddinfo['value'] = key
         # else:
         #     ddinfo['value'] = '手机号不合法!'
-        dt = datetime.now()
-        keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'LastTime':keytime , 'message':'message here'})
+        # dt = datetime.now()
+        # keytime = dt.strftime("%m%d%H%M%S")
+    return render(request,'byphone.html',{'LastTime':'something will be here' , 'message':'message here'})

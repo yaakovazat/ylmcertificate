@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="462">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -356,7 +356,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="7566000" />
+      <workItem from="1550919976357" duration="7792000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -687,11 +687,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550935666105</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="time is money">
+      <created>1550935784628</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1550935784628</updated>
+    </task>
+    <task id="LOCAL-00049" summary="sinaq">
+      <created>1550935885721</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1550935885721</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47771000" />
+    <option name="totallyTimeSpent" value="47997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1680" height="1050" extended-state="6" />
@@ -725,7 +739,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updatethecontent of the form" />
     <MESSAGE value="更新系统" />
     <MESSAGE value="women xuhahsdu" />
     <MESSAGE value="更新文本" />
@@ -750,7 +763,8 @@
     <MESSAGE value="djsaldna" />
     <MESSAGE value="ok" />
     <MESSAGE value="time is money" />
-    <option name="LAST_COMMIT_MESSAGE" value="time is money" />
+    <MESSAGE value="sinaq" />
+    <option name="LAST_COMMIT_MESSAGE" value="sinaq" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -1001,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="462">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
