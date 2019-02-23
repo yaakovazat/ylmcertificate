@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certificate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificate/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,25 +83,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="440">
+              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/certificate/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-              <folding>
-                <element signature="e#312#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,8 +169,8 @@
         <option value="$PROJECT_DIR$/data/update/current.json" />
         <option value="$PROJECT_DIR$/data/update.py" />
         <option value="$PROJECT_DIR$/apps/byphone/models.py" />
-        <option value="$PROJECT_DIR$/apps/byphone/views.py" />
         <option value="$PROJECT_DIR$/certificate/settings.py" />
+        <option value="$PROJECT_DIR$/apps/byphone/views.py" />
       </list>
     </option>
   </component>
@@ -392,21 +380,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="11252000" />
-    </task>
-    <task id="LOCAL-00016" summary="added the byphone module to the odgauo dsa">
-      <created>1550925421853</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1550925421854</updated>
-    </task>
-    <task id="LOCAL-00017" summary="尝试一下查询系统是否可以用">
-      <created>1550926153492</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1550926153492</updated>
+      <workItem from="1550919976357" duration="11388000" />
     </task>
     <task id="LOCAL-00018" summary="send the form">
       <created>1550929512316</created>
@@ -737,11 +711,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550940602801</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="byphne">
+      <created>1550940719374</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940719374</updated>
+    </task>
+    <task id="LOCAL-00066" summary="sometiem">
+      <created>1550940828013</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940828013</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51457000" />
+    <option name="totallyTimeSpent" value="51593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="0" width="1680" height="1050" extended-state="0" />
@@ -775,8 +763,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dsad" />
-    <MESSAGE value="another test" />
     <MESSAGE value="ddinfo" />
     <MESSAGE value="try" />
     <MESSAGE value="LastTime" />
@@ -800,7 +786,9 @@
     <MESSAGE value="syntax" />
     <MESSAGE value="byphone order done" />
     <MESSAGE value="ok for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok for now" />
+    <MESSAGE value="byphne" />
+    <MESSAGE value="sometiem" />
+    <option name="LAST_COMMIT_MESSAGE" value="sometiem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -1069,22 +1057,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
+    <entry file="file://$PROJECT_DIR$/certificate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#312#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/certificate/settings.py">
+    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="440">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding>
-            <element signature="e#312#321#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

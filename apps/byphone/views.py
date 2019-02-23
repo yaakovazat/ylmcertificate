@@ -21,4 +21,4 @@ def phone(request):
         #     ddinfo['value'] = '手机号不合法!'
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'ddinfo':telephone , 'message':'sometime'})
+    return render(request,'byphone.html',{'ddinfo':'order details will be here' , 'message':'sometime'})
