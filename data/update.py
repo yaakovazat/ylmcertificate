@@ -7,7 +7,7 @@ import threading as thd
 def fn():
     dt = datetime.now()
     updatedTime = dt.strftime("20%y年%m月%d日%H时%M分")
-    thd.Timer(5000, fn).start()
+    thd.Timer(10, fn).start()
     return UpdatedTime
 
 UpdatedTime = fn()
