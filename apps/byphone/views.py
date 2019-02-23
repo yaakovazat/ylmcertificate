@@ -19,4 +19,4 @@ def phone(request):
         # else:
         #     ddinfo['value'] = '手机号不合法!'
 
-    return render(request,'byphone.html',{'LastTime':keytime})
+    return render(request,'byphone.html',{'LastTime':keytime , 'message':'message here'})
