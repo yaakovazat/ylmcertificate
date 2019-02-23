@@ -10,5 +10,5 @@ def fn():
     thd.Timer(10, fn).start()
     return UpdatedTime
 
-UpdatedTime = fn()
-print("本次更新时间为:%s"%UpdatedTime)
+# UpdatedTime = fn()
+# print("本次更新时间为:%s"%UpdatedTime)
