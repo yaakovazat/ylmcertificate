@@ -4,7 +4,7 @@ from azat import ROOT_DIR
 from datetime import datetime
 # Create your views here.
 def phone(request):
-    ddinfo={}
+    # ddinfo={}
     if(request.method == 'POST'):
         telephone = request.POST.get('telephone')
         if (re.match(r'1[3,4,5,7,8]\d{9}', telephone)):
@@ -14,10 +14,9 @@ def phone(request):
         (telephone.strip(' ')).strip('\n')
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-        ddinfo['time']=keytime
         # if (telNumStatus == '1'):
         #     ddinfo['value'] = key
         # else:
         #     ddinfo['value'] = '手机号不合法!'
 
-    return render(request,'byphone.html',ddinfo)
+    return render(request,'byphone.html',{'LastTime':keytime})
