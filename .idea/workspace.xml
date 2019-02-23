@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/update.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
@@ -96,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#32#61#0" expanded="true" />
               </folding>
@@ -172,8 +171,8 @@
         <option value="$PROJECT_DIR$/templates/byphone.html" />
         <option value="$PROJECT_DIR$/data/update_time.py" />
         <option value="$PROJECT_DIR$/data/update/current.json" />
-        <option value="$PROJECT_DIR$/data/update.py" />
         <option value="$PROJECT_DIR$/apps/byphone/views.py" />
+        <option value="$PROJECT_DIR$/data/update.py" />
       </list>
     </option>
   </component>
@@ -366,14 +365,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="10153000" />
-    </task>
-    <task id="LOCAL-00008" summary="opened the debug mode">
-      <created>1549878802740</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1549878802740</updated>
+      <workItem from="1550919976357" duration="10192000" />
     </task>
     <task id="LOCAL-00009" summary="试着用 azat.py 的方式解决问题">
       <created>1549879517529</created>
@@ -711,11 +703,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550939253071</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="test again">
+      <created>1550939408995</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1550939408995</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50358000" />
+    <option name="totallyTimeSpent" value="50397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="0" width="1680" height="1050" extended-state="0" />
@@ -749,7 +748,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ganxie" />
     <MESSAGE value="dbsjfks" />
     <MESSAGE value="a thjsdfs" />
     <MESSAGE value="body" />
@@ -774,7 +772,8 @@
     <MESSAGE value="固定时间尝试一下" />
     <MESSAGE value="interesting staff" />
     <MESSAGE value="10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10" />
+    <MESSAGE value="test again" />
+    <option name="LAST_COMMIT_MESSAGE" value="test again" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -1019,16 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#32#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/status/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1052,6 +1041,16 @@
           <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#32#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
