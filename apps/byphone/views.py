@@ -3,6 +3,7 @@ import re
 import json
 from azat import ROOT_DIR
 from datetime import datetime
+from data.update import UpdatedTime
 # Create your views here.
 def phone(request):
     # ddinfo={}
@@ -19,4 +20,4 @@ def phone(request):
         #     ddinfo['value'] = '手机号不合法!'
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'ddinfo':'something will be here' , 'message':keytime})
+    return render(request,'byphone.html',{'ddinfo':'something will be here' , 'message':UpdatedTime})
