@@ -4,8 +4,6 @@ import json
 from azat import ROOT_DIR
 from datetime import datetime
 # Create your views here.
-dt = datetime.now()
-keytime = dt.strftime("%m%d%H%M%S")
 def phone(request):
     # ddinfo={}
     if(request.method == 'POST'):
@@ -19,5 +17,6 @@ def phone(request):
         #     ddinfo['value'] = key
         # else:
         #     ddinfo['value'] = '手机号不合法!'
-
+        dt = datetime.now()
+        keytime = dt.strftime("%m%d%H%M%S")
     return render(request,'byphone.html',{'LastTime':keytime , 'message':'message here'})
