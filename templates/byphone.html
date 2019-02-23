@@ -20,7 +20,7 @@
 {#      <input placeholder="Your Email Address" type="email" tabindex="2" required>#}
 {#    </fieldset>#}
     <fieldset>
-      <input placeholder="请输入客户手机号:" type="tel" tabindex="1" required>
+      <input id="telephone" name="telephone" placeholder="请输入客户手机号:" type="tel" tabindex="1" required>
     </fieldset>
 {#    <fieldset>#}
 {#      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>#}
@@ -37,7 +37,6 @@
     3. 若下单后三天,本系统仍然查不到您的信息,请及时联系我们处理.<br>
     </h4>
     </fieldset>
-    <input type="button" class="button" value="返回授权页" onclick="location.href='http://www.jzzy.com'">
     {% csrf_token %}
   </form>
 </div>
