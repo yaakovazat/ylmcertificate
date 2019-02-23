@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="dt">
+    <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/byphone/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +87,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -160,6 +167,7 @@
         <option value="$PROJECT_DIR$/data/update_time.py" />
         <option value="$PROJECT_DIR$/data/update/current.json" />
         <option value="$PROJECT_DIR$/data/update.py" />
+        <option value="$PROJECT_DIR$/apps/byphone/models.py" />
         <option value="$PROJECT_DIR$/apps/byphone/views.py" />
       </list>
     </option>
@@ -181,6 +189,23 @@
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="certificate" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="certificate" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="agentkeys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="certificate" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="byphone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
@@ -348,21 +373,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="10508000" />
-    </task>
-    <task id="LOCAL-00012" summary="change target directory ,not using the base function but using the root dir that from azart.p">
-      <created>1549880158096</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1549880158096</updated>
-    </task>
-    <task id="LOCAL-00013" summary="updated the certificated page and used the built in css for instance">
-      <created>1549880331220</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1549880331220</updated>
+      <workItem from="1550919976357" duration="11150000" />
     </task>
     <task id="LOCAL-00014" summary="start creating the byphone module should be work with in a new module.">
       <created>1550923932009</created>
@@ -693,11 +704,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550939909902</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="keytime">
+      <created>1550939943391</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1550939943391</updated>
+    </task>
+    <task id="LOCAL-00062" summary="syntax">
+      <created>1550940012761</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940012761</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50713000" />
+    <option name="totallyTimeSpent" value="51355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="0" width="1680" height="1050" extended-state="0" />
@@ -731,8 +756,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update人" />
-    <MESSAGE value="update placeholder" />
     <MESSAGE value="form update action meta" />
     <MESSAGE value="updadnaskld" />
     <MESSAGE value="dsad" />
@@ -756,7 +779,9 @@
     <MESSAGE value="shiyixia" />
     <MESSAGE value="tele" />
     <MESSAGE value="dt" />
-    <option name="LAST_COMMIT_MESSAGE" value="dt" />
+    <MESSAGE value="keytime" />
+    <MESSAGE value="syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="syntax" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -795,13 +820,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/generate/target.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/agentkeys/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/status/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -927,9 +945,6 @@
     <entry file="file://$PROJECT_DIR$/apps/authorize/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/authorize/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/byphone.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1028,13 +1043,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/authorize/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/agentkeys/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <caret line="21" column="42" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>

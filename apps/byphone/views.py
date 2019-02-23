@@ -3,6 +3,7 @@ import re
 import json
 from azat import ROOT_DIR
 from datetime import datetime
+from .models import Order
 from data.update import fn
 # Create your views here.
 def phone(request):
