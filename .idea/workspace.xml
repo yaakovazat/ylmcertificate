@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/byphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/byphone.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="660">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -73,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/status.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="346">
               <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="30" />
             </state>
           </provider>
@@ -88,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="393">
               <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -357,7 +356,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="6746000" />
+      <workItem from="1550919976357" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -660,11 +659,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550934757634</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="jskdjs">
+      <created>1550934906564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1550934906564</updated>
+    </task>
+    <task id="LOCAL-00045" summary="djsaldna">
+      <created>1550935381610</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1550935381610</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46951000" />
+    <option name="totallyTimeSpent" value="47533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1680" height="1050" extended-state="6" />
@@ -698,8 +711,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="send the form" />
-    <MESSAGE value="some files with css and give a try" />
     <MESSAGE value="update the css file" />
     <MESSAGE value="update in the form content" />
     <MESSAGE value="updatethecontent of the form" />
@@ -723,7 +734,9 @@
     <MESSAGE value="ddinfo" />
     <MESSAGE value="try" />
     <MESSAGE value="LastTime" />
-    <option name="LAST_COMMIT_MESSAGE" value="LastTime" />
+    <MESSAGE value="jskdjs" />
+    <MESSAGE value="djsaldna" />
+    <option name="LAST_COMMIT_MESSAGE" value="djsaldna" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -951,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -965,20 +971,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/status.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/byphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="660">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
