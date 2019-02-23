@@ -20,4 +20,4 @@ def phone(request):
         #     ddinfo['value'] = '手机号不合法!'
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'ddinfo':telephone , 'message':fn()})
+    return render(request,'byphone.html',{'ddinfo':telephone , 'message':dt)
