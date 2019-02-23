@@ -4,6 +4,8 @@ import json
 from azat import ROOT_DIR
 from datetime import datetime
 # Create your views here.
+dt = datetime.now()
+keytime = dt.strftime("%m%d%H%M%S")
 def phone(request):
     # ddinfo={}
     if(request.method == 'POST'):
@@ -13,8 +15,6 @@ def phone(request):
         else:
             telNumStatus = '0'
         (telephone.strip(' ')).strip('\n')
-        dt = datetime.now()
-        keytime = dt.strftime("%m%d%H%M%S")
         # if (telNumStatus == '1'):
         #     ddinfo['value'] = key
         # else:
