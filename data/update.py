@@ -1,5 +1,5 @@
-from datetime import datetime
+# from datetime import datetime
 
-dt = datetime.now()
-UpdatedTime = dt.strftime("20%y年%m月%d日%H时%M分")
+# dt = datetime.now()
+UpdatedTime = "2019年2月23日10点12分"
 print("本次更新时间为:%s"%UpdatedTime)
