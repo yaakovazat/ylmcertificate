@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
+    <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="dt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
     </list>
@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -348,21 +348,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="10445000" />
-    </task>
-    <task id="LOCAL-00010" summary="updated genetrate.view de log json">
-      <created>1549879861500</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1549879861500</updated>
-    </task>
-    <task id="LOCAL-00011" summary="updated tyword fuction and it's root directory">
-      <created>1549880016233</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1549880016233</updated>
+      <workItem from="1550919976357" duration="10508000" />
     </task>
     <task id="LOCAL-00012" summary="change target directory ,not using the base function but using the root dir that from azart.p">
       <created>1549880158096</created>
@@ -693,11 +679,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550939446436</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="tele">
+      <created>1550939882347</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1550939882347</updated>
+    </task>
+    <task id="LOCAL-00060" summary="dt">
+      <created>1550939909902</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1550939909902</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50650000" />
+    <option name="totallyTimeSpent" value="50713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="0" width="1680" height="1050" extended-state="0" />
@@ -731,8 +731,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a thjsdfs" />
-    <MESSAGE value="body" />
     <MESSAGE value="update人" />
     <MESSAGE value="update placeholder" />
     <MESSAGE value="form update action meta" />
@@ -756,7 +754,9 @@
     <MESSAGE value="10" />
     <MESSAGE value="test again" />
     <MESSAGE value="shiyixia" />
-    <option name="LAST_COMMIT_MESSAGE" value="shiyixia" />
+    <MESSAGE value="tele" />
+    <MESSAGE value="dt" />
+    <option name="LAST_COMMIT_MESSAGE" value="dt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -1031,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
