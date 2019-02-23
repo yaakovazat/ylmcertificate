@@ -3,72 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>一路梦订单信息查询系统</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/byphone.css'%}">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container-fluid">
-	<div class="row-fluid">
-		<div class="span12">
-			<h2>
-				一路梦™️ 订单查询系统
-			</h2>
-			<p>
-				本可视化布局程序在HTML5浏览器上运行更加完美, 能实现自动本地化保存, 即使关闭了网页, 下一次打开仍然能恢复上一次的操作.
-			</p>
-			<p>
-				<a class="btn" href="#">想加入一路梦? »</a>
-			</p>
-		</div>
-    </div>
-</div>
-
-  <form class="form-horizontal">
+<div class="container">
+  <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
     <fieldset>
-      <div id="legend" class="">
-        <legend class="">一路梦™️订单信息综合查询系统</legend>
-      </div>
-
-
-
-
-
-
-    <div class="control-group">
-
-          <!-- Text input-->
-          <label class="control-label" for="input01">手机号</label>
-          <div class="controls">
-            <input type="text" placeholder="请输入客户的手机号" class="input-xlarge">
-            <p class="help-block"></p>
-          </div>
-        </div>
-
-
-
-
-
-    <div class="control-group">
-          <label class="control-label">订单信息</label>
-
-          <!-- Button -->
-          <div class="controls">
-            <button class="btn btn-success">点击查询</button>
-          </div>
-        </div>
-
-    <div class="control-group">
-
-          <!-- Textarea -->
-          <label class="control-label">查询结果</label>
-          <div class="controls">
-            <div class="textarea">
-                  <textarea type="" class=""> </textarea>
-            </div>
-          </div>
-        </div>
-
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
+</div>
 </body>
 </html>

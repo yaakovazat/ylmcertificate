@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/byphone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/byphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/byphone.html" afterDir="false" />
     </list>
@@ -42,8 +43,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/authorize.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +55,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="79">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/byphone.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="100" column="29" selection-end-line="115" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,9 +115,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -146,6 +159,7 @@
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/apps/byphone/views.py" />
         <option value="$PROJECT_DIR$/certificate/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/byphone.css" />
         <option value="$PROJECT_DIR$/templates/byphone.html" />
       </list>
     </option>
@@ -173,6 +187,17 @@
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="certificate" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="certificate" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +359,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="1629000" />
+      <workItem from="1550919976357" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -448,11 +473,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550925421854</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="尝试一下查询系统是否可以用">
+      <created>1550926153492</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550926153492</updated>
+    </task>
+    <task id="LOCAL-00018" summary="send the form">
+      <created>1550929512316</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550929512316</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41834000" />
+    <option name="totallyTimeSpent" value="42458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="0" width="1680" height="1050" extended-state="0" />
@@ -501,7 +540,9 @@
     <MESSAGE value="updated the certificated page and used the built in css for instance" />
     <MESSAGE value="start creating the byphone module should be work with in a new module." />
     <MESSAGE value="added the byphone module to the odgauo dsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the byphone module to the odgauo dsa" />
+    <MESSAGE value="尝试一下查询系统是否可以用" />
+    <MESSAGE value="send the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="send the form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -696,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/authorize.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/authorize/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,10 +767,27 @@
     <entry file="file://$PROJECT_DIR$/apps/authorize/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/byphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="100" column="29" selection-end-line="115" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authorize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/byphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="79">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>
