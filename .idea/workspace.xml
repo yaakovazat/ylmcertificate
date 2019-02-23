@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="507">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -358,7 +358,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="3196000" />
+      <workItem from="1550919976357" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -542,17 +542,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550930923141</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="csrf">
+      <created>1550930997781</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930997781</updated>
+    </task>
+    <task id="LOCAL-00028" summary="添加了一下备注">
+      <created>1550931492099</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1550931492099</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43401000" />
+    <option name="totallyTimeSpent" value="43911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,7 +581,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32908705" />
       <window_info anchor="bottom" id="manage.py@certificate" order="10" weight="0.32908705" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32908705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -580,8 +594,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="这个文件真他吗的不想要" />
-    <MESSAGE value="允许的 host 改了&#10;&#10;debug 改成了 false" />
     <MESSAGE value="STATIC_ROOT = os.path.join(BASE_DIR, &quot;static&quot;)" />
     <MESSAGE value="{%static&#10;%}" />
     <MESSAGE value="ok" />
@@ -605,7 +617,9 @@
     <MESSAGE value="women xuhahsdu" />
     <MESSAGE value="更新文本" />
     <MESSAGE value="nuray" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuray" />
+    <MESSAGE value="csrf" />
+    <MESSAGE value="添加了一下备注" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了一下备注" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -849,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/byphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="507">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
