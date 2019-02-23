@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="449">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -358,7 +358,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="3038000" />
+      <workItem from="1550919976357" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -528,11 +528,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550930729141</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="更新文本">
+      <created>1550930831582</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930831582</updated>
+    </task>
+    <task id="LOCAL-00026" summary="nuray">
+      <created>1550930923141</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930923141</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43243000" />
+    <option name="totallyTimeSpent" value="43401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="0" width="1680" height="1050" extended-state="0" />
@@ -589,7 +603,9 @@
     <MESSAGE value="updatethecontent of the form" />
     <MESSAGE value="更新系统" />
     <MESSAGE value="women xuhahsdu" />
-    <option name="LAST_COMMIT_MESSAGE" value="women xuhahsdu" />
+    <MESSAGE value="更新文本" />
+    <MESSAGE value="nuray" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuray" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -833,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/byphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="449">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
