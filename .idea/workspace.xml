@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,37 +83,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/update.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#32#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/status/views.py">
+        <entry file="file://$PROJECT_DIR$/data/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="111" selection-start-line="26" selection-start-column="111" selection-end-line="26" selection-end-column="111" />
+            <state relative-caret-position="220">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#32#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,13 +159,13 @@
         <option value="$PROJECT_DIR$/templates/byphone.html" />
         <option value="$PROJECT_DIR$/data/update_time.py" />
         <option value="$PROJECT_DIR$/data/update/current.json" />
-        <option value="$PROJECT_DIR$/apps/byphone/views.py" />
         <option value="$PROJECT_DIR$/data/update.py" />
+        <option value="$PROJECT_DIR$/apps/byphone/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="164" />
+    <option name="x" value="130" />
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -193,11 +181,6 @@
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
@@ -365,14 +348,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="10192000" />
-    </task>
-    <task id="LOCAL-00009" summary="试着用 azat.py 的方式解决问题">
-      <created>1549879517529</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1549879517529</updated>
+      <workItem from="1550919976357" duration="10445000" />
     </task>
     <task id="LOCAL-00010" summary="updated genetrate.view de log json">
       <created>1549879861500</created>
@@ -710,14 +686,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550939408995</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="shiyixia">
+      <created>1550939446436</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1550939446436</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50397000" />
+    <option name="totallyTimeSpent" value="50650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="130" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
@@ -748,7 +731,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dbsjfks" />
     <MESSAGE value="a thjsdfs" />
     <MESSAGE value="body" />
     <MESSAGE value="update人" />
@@ -773,7 +755,8 @@
     <MESSAGE value="interesting staff" />
     <MESSAGE value="10" />
     <MESSAGE value="test again" />
-    <option name="LAST_COMMIT_MESSAGE" value="test again" />
+    <MESSAGE value="shiyixia" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiyixia" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -1018,6 +1001,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/status/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1028,29 +1018,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
+    <entry file="file://$PROJECT_DIR$/data/update.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#32#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#32#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
