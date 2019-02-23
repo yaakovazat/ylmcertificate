@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'check',
     'generate',
     'agentkeys',
+    'byphone',
 ]
 
 MIDDLEWARE = [
