@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certificate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificate/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/byphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/byphone.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="422">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/certificate/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -151,9 +144,9 @@
         <option value="$PROJECT_DIR$/apps/generate/typeW.py" />
         <option value="$PROJECT_DIR$/templates/certificate.html" />
         <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/templates/byphone.html" />
         <option value="$PROJECT_DIR$/apps/byphone/views.py" />
         <option value="$PROJECT_DIR$/certificate/urls.py" />
+        <option value="$PROJECT_DIR$/templates/byphone.html" />
       </list>
     </option>
   </component>
@@ -341,7 +334,7 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="1257000" />
+      <workItem from="1550919976357" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="这个文件真他吗的不想要">
       <created>1549876052803</created>
@@ -448,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550923979691</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added the byphone module to the odgauo dsa">
+      <created>1550925421853</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550925421854</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41462000" />
+    <option name="totallyTimeSpent" value="41834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="0" width="1680" height="1050" extended-state="0" />
@@ -500,7 +500,8 @@
     <MESSAGE value="change target directory ,not using the base function but using the root dir that from azart.p" />
     <MESSAGE value="updated the certificated page and used the built in css for instance" />
     <MESSAGE value="start creating the byphone module should be work with in a new module." />
-    <option name="LAST_COMMIT_MESSAGE" value="start creating the byphone module should be work with in a new module." />
+    <MESSAGE value="added the byphone module to the odgauo dsa" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the byphone module to the odgauo dsa" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
@@ -702,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/byphone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/authorize/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/authorize/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -732,10 +723,20 @@
     <entry file="file://$PROJECT_DIR$/certificate/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/authorize/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/byphone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
