@@ -16,8 +16,8 @@ def phone(request):
         key = dt.strftime("%m%d%H%M%S")
 
         if (telNumStatus == '1'):
-            context['value'] = key
+            ddinfo['value'] = key
         else:
-            context['value'] = '手机号不合法!'
+            ddinfo['value'] = '手机号不合法!'
 
     return render(request,'byphone.html',ddinfo)
