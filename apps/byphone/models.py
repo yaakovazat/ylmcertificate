@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Order(models.Model):
+    data_updated = models.CharField(max_length=40,verbose_name="更新时间", default="")
     ID = models.CharField(primary_key=True, max_length=40,verbose_name="订单编号", default="")
     order_name = models.CharField(max_length=50, verbose_name="收件人", default="")
     order_phone = models.CharField(max_length=20, verbose_name="手机号", default="")
