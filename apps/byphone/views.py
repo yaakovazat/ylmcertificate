@@ -22,7 +22,7 @@ def phone(request):
         time_in_db = LastUpdateTime.objects.all().values()[0]
         update_time =time_in_db['last_update_hand']
         ###
-        orders = {}
+        orders = []
         if (telNumStatus == '1'):
             tel_status = ''
             orders_in_db = Order.objects.filter(order_phone=telephone)
