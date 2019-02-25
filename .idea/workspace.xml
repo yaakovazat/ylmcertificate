@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="32" column="252" selection-start-line="32" selection-start-column="252" selection-end-line="32" selection-end-column="252" />
+            <state relative-caret-position="445">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -348,14 +348,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="15547000" />
-    </task>
-    <task id="LOCAL-00079" summary="msg2">
-      <created>1551071836343</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1551071836343</updated>
+      <workItem from="1551067813189" duration="15614000" />
     </task>
     <task id="LOCAL-00080" summary="msg2">
       <created>1551071906556</created>
@@ -693,11 +686,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551086327812</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="bianliang">
+      <created>1551086737098</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1551086737098</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68207000" />
+    <option name="totallyTimeSpent" value="68274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -731,7 +731,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dd check time first" />
     <MESSAGE value="dd 更新" />
     <MESSAGE value="get or filter" />
     <MESSAGE value="all ?" />
@@ -756,7 +755,8 @@
     <MESSAGE value="orders in databes shibushi yeshige list" />
     <MESSAGE value="results big results" />
     <MESSAGE value="in one line" />
-    <option name="LAST_COMMIT_MESSAGE" value="in one line" />
+    <MESSAGE value="bianliang" />
+    <option name="LAST_COMMIT_MESSAGE" value="bianliang" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1039,8 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="32" column="252" selection-start-line="32" selection-start-column="252" selection-end-line="32" selection-end-column="252" />
+        <state relative-caret-position="445">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
