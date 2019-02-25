@@ -26,7 +26,6 @@ def phone(request):
 
 def xlsx(request):
     if request.method == "POST":
-        POSTmsg1= AddForm(request.POST)
         f = request.FILES['my_file']
         type_excel = f.name.split('.')[1]
         # if 'xlsx' != type_excel:
