@@ -26,7 +26,7 @@ def phone(request):
 
 def xlsx(request):
     if request.method == "POST":
-
+        msg1= AddForm(request.POST)
         f = request.FILES['my_file']
         type_excel = f.name.split('.')[1]
         if 'xlsx' != type_excel:
@@ -82,6 +82,6 @@ def xlsx(request):
                     order.external_ID = each['external_ID']
                     order.save()
                 msg3 = "所有记录保存成功!"
-
-
-    return render(request,'xlsx.html',msg3)
+    else:  # 当正常访问时
+        msg1 = AddForm()
+    return render(request,'xlsx.html',{'msg1':msg1,'msg2':msg2,'msg3':msg3})
