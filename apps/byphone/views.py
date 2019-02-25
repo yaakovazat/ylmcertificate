@@ -3,6 +3,7 @@ import re
 from azat import ROOT_DIR
 from datetime import datetime
 from .models import Order
+import xlrd
 from data.update import fn
 # Create your views here.
 
