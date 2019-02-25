@@ -30,16 +30,10 @@
     </fieldset>
     <h5>系统数据最后更新时间:{{ message }}</h5>
     <h4>{{ check_tel }}</h4>
-    <pre>{{ order_details }}</pre>
-{#    订单号:{{ ID }}<br>#}
-{#    订单号:{{ client }}<br>#}
-{#    订单号:{{ tel }}<br>#}
-{#    订单号:{{ cases }}<br>#}
-{#    订单号:{{ express }}<br>#}
-{#    订单号:{{ express_id }}<br>#}
-{#    订单号:{{ order_status }}<br>#}
-{#    订单号:{{ time_get }}<br>#}
-{#    订单号:{{ time_done }}<br>#}
+    {% for num in orders_info %}
+    <pre>{{ num }}</pre>
+    {% endfor%}
+
     <br><h4>备注:<br>
     1. 当天北京时间 14:00 之前的订单当天安排.北京时间 14:00 之后的订单第二天安排.<br>
     2. 订单安排后的第二天出快递单号.(也就是订单安排后的第二天你才可以在本系统查得到).<br>
