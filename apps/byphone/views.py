@@ -31,7 +31,7 @@ def phone(request):
                 orders.append(each)
             for each in orders:
                 express_Id=float(each['express_id'])
-                express_Id = round(express_Id)
+                express_ID = round(express_Id)
                 result = "\n订单编号:%s\n客户姓名:%s\n电话:%s\n快递公司:%s\n快递单号:%s\n订单状态:%s\n下单日期:%s\n审核日期:%s\n"%(each['ID'],each['order_name'],each['order_phone'],each['express'],express_ID,each['order_status'],each['order_get_time'],each['order_done_time'])
                 results.append(result)
             orders_info = results
