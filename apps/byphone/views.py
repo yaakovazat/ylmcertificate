@@ -30,14 +30,7 @@ def phone(request):
             for each in orders_in_db:
                 orders.append(each)
             for each in orders:
-                result = "订单编号:%s\n" \
-                         "客户姓名:%s\n" \
-                         "电话:%s\n" \
-                         "快递公司:%s\n" \
-                         "快递单号:%s\n" \
-                         "订单状态:%s\n" \
-                         "下单日期:%s\n" \
-                         "审核日期:%s\n"each['ID'],each['order_name'],each['order_phone'],each['express'],each['express_id'],each['order_status'],each['order_get_time'],each['order_done_time']
+                result = "订单编号:%s\n客户姓名:%s\n电话:%s\n快递公司:%s\n快递单号:%s\n订单状态:%s\n下单日期:%s\n审核日期:%s\n"each['ID'],each['order_name'],each['order_phone'],each['express'],each['express_id'],each['order_status'],each['order_get_time'],each['order_done_time']
                 results.append(result)
             orders_info=results
         else:
