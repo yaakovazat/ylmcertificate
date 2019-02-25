@@ -19,7 +19,7 @@ def phone(request):
             telNumStatus = '0'
         (telephone.strip(' ')).strip('\n')
         ### time update
-        update_time = LastUpdateTime.objects.all().values('last_update_hand')
+        update_time = LastUpdateTime.objects.filter(key='last_update_hand')
         ###
         if (telNumStatus == '1'):
             ddinfo['value'] = key
@@ -27,7 +27,9 @@ def phone(request):
             ddinfo['value'] = '手机号不合法!'
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'ddinfo':'order details will be here' , 'message':update_time})
+
+    update_time = LastUpdateTime.objects.filter(key='last_update_hand')
+    return render(request,'byphone.html',{'ddinfo':'订单详情' , 'message':update_time})
 
 
 def xlsx(request):
