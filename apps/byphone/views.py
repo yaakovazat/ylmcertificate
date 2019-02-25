@@ -30,8 +30,8 @@ def phone(request):
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
 
-    time_in_db = LastUpdateTime.objects.all()
-    update_time = time_in_db[0]['last_update_hand']
+    time_in_db = LastUpdateTime.objects.all().values('last_update_hand')
+    update_time = time_in_db
 
     return render(request,'byphone.html',{'ddinfo':'订单详情' , 'message':update_time})
 
