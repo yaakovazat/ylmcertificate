@@ -19,7 +19,7 @@ def phone(request):
             telNumStatus = '0'
         (telephone.strip(' ')).strip('\n')
         ### time update
-        update_time = LastUpdateTime.objects.filter(last_update_hand)
+        update_time = LastUpdateTime.objects.filter('last_update_hand')
         ###
         if (telNumStatus == '1'):
             ddinfo['value'] = key
@@ -28,7 +28,7 @@ def phone(request):
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
 
-    update_time = LastUpdateTime.objects.filter(last_update_hand)
+    update_time = LastUpdateTime.objects.filter('last_update_hand')
     return render(request,'byphone.html',{'ddinfo':'订单详情' , 'message':update_time})
 
 
