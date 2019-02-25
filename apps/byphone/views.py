@@ -70,9 +70,10 @@ def xlsx(request):
                     "external_ID": row[11]  # 外部订单号 
                 }
                 )
-                order = Order()
                 last_update_Value = LastUpdateTime()
-                last_update_Value.last_update_value = xlsx_data[0]['data_updated']
+                last_update_Value.last_update_value = time_update
+                last_update_Value.save()
+                order = Order()
                 for each in xlsx_data:
                     order.data_updated = each['data_updated']
                     order.ID = each['ID']
