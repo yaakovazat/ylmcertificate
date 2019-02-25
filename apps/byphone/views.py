@@ -45,6 +45,14 @@ def xlsx(request):
             msg2 = "总共读取到 %s 条订单记录!"%nrows
             # read xlsx data
             # read the updated time first
+            ## update time
+            dt = datetime.now()
+            keytime = dt.strftime('%Y年%m月%d日 %H时:%M分:%S秒')
+            last_update_Value = LastUpdateTime()
+            last_update_Value.unique_id = "lastUpdate"
+            last_update_Value.last_update_hand = keytime
+            last_update_Value.save()
+            ## update time finished
             first_row = table.row_values(1)
             time_update = first_row[0]
             xlsx_data = []
@@ -70,10 +78,6 @@ def xlsx(request):
                     "external_ID": row[11]  # 外部订单号 
                 }
                 )
-                last_update_Value = LastUpdateTime()
-                last_update_Value.unique_id = "lastUpdate"
-                last_update_Value.last_update_hand = time_update
-                last_update_Value.save()
                 order = Order()
                 for each in xlsx_data:
                     order.data_updated = each['data_updated']

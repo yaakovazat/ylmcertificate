@@ -29,7 +29,6 @@ class LastUpdateTime(models.Model):
     last_update_hand = models.CharField(max_length=100,verbose_name="手动更新时间", default="")
     last_update_auto = models. DateTimeField(auto_now=True, verbose_name="自动更新时间")
 
-
     class Meta:
         verbose_name = "更新记录"
         verbose_name_plural = verbose_name
