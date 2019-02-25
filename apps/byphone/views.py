@@ -27,7 +27,7 @@ def phone(request):
             tel_status = ''
             orders_in_db = Order.objects.filter(order_phone=telephone)
             for each in orders_in_db:
-                orders.append(each)
+                orders.append(each.values())
             orders_info = orders
         else:
             tel_status= "手机号不合法!"
