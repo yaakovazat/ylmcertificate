@@ -4,6 +4,7 @@ from azat import ROOT_DIR
 from datetime import datetime
 from .models import Order
 import xlrd
+from xlrd import xldate_as_tuple
 from data.update import fn
 # Create your views here.
 
