@@ -28,6 +28,8 @@ def phone(request):
         else:
             ddinfo['value'] = '手机号不合法!'
     else:
+        time_in_db = LastUpdateTime.objects.all().values()[0]
+        update_time = time_in_db['last_update_hand']
         return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': "", 'message': update_time})
     return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
 

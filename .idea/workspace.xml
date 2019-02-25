@@ -4,7 +4,6 @@
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/byphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/byphone.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="27" column="116" selection-start-line="27" selection-start-column="116" selection-end-line="27" selection-end-column="116" />
+            <state relative-caret-position="350">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -338,21 +337,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="11267000" />
-    </task>
-    <task id="LOCAL-00063" summary="byphone order done">
-      <created>1550940590120</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1550940590120</updated>
-    </task>
-    <task id="LOCAL-00064" summary="ok for now">
-      <created>1550940602801</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1550940602801</updated>
+      <workItem from="1551067813189" duration="11438000" />
     </task>
     <task id="LOCAL-00065" summary="byphne">
       <created>1550940719374</created>
@@ -683,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551081883558</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="&quot;&quot;">
+      <created>1551082189960</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1551082189960</updated>
+    </task>
+    <task id="LOCAL-00113" summary="hhh">
+      <created>1551082309454</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1551082309454</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63927000" />
+    <option name="totallyTimeSpent" value="64098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -721,7 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="msg2" />
     <MESSAGE value="update template" />
     <MESSAGE value="updated the url for xlsx.html" />
     <MESSAGE value="update" />
@@ -746,7 +744,8 @@
     <MESSAGE value="000" />
     <MESSAGE value="['last_update_hand']" />
     <MESSAGE value="&quot;&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;&quot;" />
+    <MESSAGE value="hhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhh" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1029,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="27" column="116" selection-start-line="27" selection-start-column="116" selection-end-line="27" selection-end-column="116" />
+        <state relative-caret-position="350">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
