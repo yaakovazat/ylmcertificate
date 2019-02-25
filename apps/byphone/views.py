@@ -26,14 +26,14 @@ def phone(request):
 
 def xlsx(request):
     if request.method == "POST":
-        msg1= AddForm(request.POST)
+        POSTmsg1= AddForm(request.POST)
         f = request.FILES['my_file']
         type_excel = f.name.split('.')[1]
-        if 'xlsx' != type_excel:
-            msg1 = "目前仅支持 Microsoft xlsx 文件格式!"
-            return render(request,'xlsx.html',{'msg1':msg1})
-        else:
-            msg1 = " Microsoft xlsx 文件格式准确!"
+        # if 'xlsx' != type_excel:
+        #     msg1 = "目前仅支持 Microsoft xlsx 文件格式!"
+        #     return render(request,'xlsx.html',{'msg1':msg1})
+        if('xlsx' == type_excel):
+            # msg1 = " Microsoft xlsx 文件格式准确!"
             # get xlsx and read
             workbook = xlrd.open_workbook(xlsx_file)
             table = workbook.sheets()[0]
