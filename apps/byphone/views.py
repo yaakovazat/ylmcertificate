@@ -25,15 +25,10 @@ def phone(request):
         ddinfo = {}
         if (telNumStatus == '1'):
             ddinfo['info'] = telephone
+            return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
         else:
             ddinfo['value'] = '手机号不合法!'
-
-    else:
-        time_in_db = LastUpdateTime.objects.all().values()[0]
-        update_time =time_in_db['last_update_hand']
-        ddinfo =""
-
-    return render(request,'byphone.html',{'ddinfo':"订单详情" ,'dddetails':ddinfo, 'message':update_time})
+            return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
 
 
 def xlsx(request):
