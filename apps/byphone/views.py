@@ -25,11 +25,11 @@ def phone(request):
         ddinfo = {}
         if (telNumStatus == '1'):
             ddinfo['info'] = telephone
-            return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
         else:
             ddinfo['value'] = '手机号不合法!'
-            return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
-
+    else:
+        return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': "", 'message': update_time})
+    return render(request, 'byphone.html', {'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
 
 def xlsx(request):
     if request.method == "POST":
