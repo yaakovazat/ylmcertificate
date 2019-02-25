@@ -71,7 +71,8 @@ def xlsx(request):
                 }
                 )
                 last_update_Value = LastUpdateTime()
-                last_update_Value.last_update_value = time_update
+                last_update_Value.unique_id = "lastUpdate"
+                last_update_Value.last_update_hand = time_update
                 last_update_Value.save()
                 order = Order()
                 for each in xlsx_data:
