@@ -29,12 +29,14 @@ def xlsx(request):
 
         f = request.FILES['my_file']
         type_excel = f.name.split('.')[1]
+        if 'xlsx' != type_excel:
+            msg1 = "目前仅支持 Microsoft xlsx 文件格式!"
         if 'xlsx' == type_excel:
             # get xlsx and read
             workbook = xlrd.open_workbook(xlsx_file)
             table = workbook.sheets()[0]
             nrows = table.nrows
-
+            msg2 = "总共读取到 %s 条订单记录!"%nrows
             # read xlsx data
             # read the updated time first
             first_row = table.row_values(1)
@@ -77,12 +79,7 @@ def xlsx(request):
                     order.order_done_time = each['order_done_time']
                     order.external_ID = each['external_ID']
                     order.save()
+                msg3 = "所有记录保存成功!"
 
-            except Exception as e:
-                return JsonResponse({'msg': '出现错误....'})
 
-            return JsonResponse({'msg': 'ok'})
-
-        return JsonResponse({'msg': '上传文件格式不是xlsx'})
-
-    return JsonResponse({'msg': '不是post请求'})
+    return render(request,'xlsx.html',{'msg1':msg1,'msg2':msg2,'msg3':msg3})
