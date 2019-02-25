@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="352">
+              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/status/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="330">
+              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -337,21 +337,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="7744000" />
-    </task>
-    <task id="LOCAL-00045" summary="djsaldna">
-      <created>1550935381610</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1550935381610</updated>
-    </task>
-    <task id="LOCAL-00046" summary="ok">
-      <created>1550935508239</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1550935508239</updated>
+      <workItem from="1551067813189" duration="8045000" />
     </task>
     <task id="LOCAL-00047" summary="time is money">
       <created>1550935666105</created>
@@ -682,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551075984946</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="dd check time first">
+      <created>1551076512173</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1551076512173</updated>
+    </task>
+    <task id="LOCAL-00095" summary="dd 更新">
+      <created>1551076720966</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1551076720966</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60404000" />
+    <option name="totallyTimeSpent" value="60705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -720,8 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="byphne" />
-    <MESSAGE value="sometiem" />
     <MESSAGE value="ok this time" />
     <MESSAGE value="update the model" />
     <MESSAGE value="updated the update view" />
@@ -745,7 +743,9 @@
     <MESSAGE value="wangji baocun le" />
     <MESSAGE value="about sime time changes here" />
     <MESSAGE value="time update" />
-    <option name="LAST_COMMIT_MESSAGE" value="time update" />
+    <MESSAGE value="dd check time first" />
+    <MESSAGE value="dd 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd 更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1018,8 +1018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/status/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="330">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1028,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
