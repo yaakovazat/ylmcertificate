@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="681">
-              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -339,21 +339,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="3378000" />
-    </task>
-    <task id="LOCAL-00026" summary="nuray">
-      <created>1550930923141</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1550930923141</updated>
-    </task>
-    <task id="LOCAL-00027" summary="csrf">
-      <created>1550930997781</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1550930997781</updated>
+      <workItem from="1551067813189" duration="3587000" />
     </task>
     <task id="LOCAL-00028" summary="添加了一下备注">
       <created>1550931492099</created>
@@ -684,11 +670,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551071037465</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="addform">
+      <created>1551071486710</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1551071486710</updated>
+    </task>
+    <task id="LOCAL-00076" summary="shiyixia">
+      <created>1551071667308</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1551071667308</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56038000" />
+    <option name="totallyTimeSpent" value="56247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -722,7 +722,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="time is money" />
     <MESSAGE value="sinaq" />
     <MESSAGE value="somethign will be dispaclad" />
     <MESSAGE value="gainfhsdjf" />
@@ -731,7 +730,6 @@
     <MESSAGE value="interesting staff" />
     <MESSAGE value="10" />
     <MESSAGE value="test again" />
-    <MESSAGE value="shiyixia" />
     <MESSAGE value="tele" />
     <MESSAGE value="dt" />
     <MESSAGE value="keytime" />
@@ -747,7 +745,9 @@
     <MESSAGE value="update 前段文件" />
     <MESSAGE value="msg1" />
     <MESSAGE value="try msg3" />
-    <option name="LAST_COMMIT_MESSAGE" value="try msg3" />
+    <MESSAGE value="addform" />
+    <MESSAGE value="shiyixia" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiyixia" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1031,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
