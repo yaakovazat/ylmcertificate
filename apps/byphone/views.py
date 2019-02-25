@@ -84,6 +84,6 @@ def xlsx(request):
                 msg3 = "所有记录保存成功!"
     else:  # 当正常访问时
         msg1 = ""
-        msg3 = ""
+        msg2 = ""
         msg3 = ""
     return render(request,'xlsx.html',{'msg1':msg1,'msg2':msg2,'msg3':msg3})
