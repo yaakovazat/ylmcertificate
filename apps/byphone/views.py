@@ -25,7 +25,7 @@ def phone(request):
         orders = []
         if (telNumStatus == '1'):
             tel_status = ''
-            orders_in_db = Order.objects.filter(order_phone=telephone)
+            orders_in_db = Order.objects.filter(order_phone=telephone).values()
             for each in orders_in_db:
                 orders.append(each)
             orders_info = orders
