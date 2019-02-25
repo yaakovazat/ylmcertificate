@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/byphone/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+            <state relative-caret-position="288">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/status/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="111" selection-start-line="26" selection-start-column="111" selection-end-line="26" selection-end-column="111" />
+            <state relative-caret-position="220">
+              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="54" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+            <state relative-caret-position="660">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -338,21 +337,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="6725000" />
-    </task>
-    <task id="LOCAL-00043" summary="LastTime">
-      <created>1550934757634</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1550934757634</updated>
-    </task>
-    <task id="LOCAL-00044" summary="jskdjs">
-      <created>1550934906564</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1550934906564</updated>
+      <workItem from="1551067813189" duration="7744000" />
     </task>
     <task id="LOCAL-00045" summary="djsaldna">
       <created>1550935381610</created>
@@ -683,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551074628813</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="about sime time changes here">
+      <created>1551075322976</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1551075322976</updated>
+    </task>
+    <task id="LOCAL-00093" summary="time update">
+      <created>1551075984946</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1551075984946</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59385000" />
+    <option name="totallyTimeSpent" value="60404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -721,8 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="byphone order done" />
-    <MESSAGE value="ok for now" />
     <MESSAGE value="byphne" />
     <MESSAGE value="sometiem" />
     <MESSAGE value="ok this time" />
@@ -746,7 +743,9 @@
     <MESSAGE value="update model" />
     <MESSAGE value="gngxin shijian jilu" />
     <MESSAGE value="wangji baocun le" />
-    <option name="LAST_COMMIT_MESSAGE" value="wangji baocun le" />
+    <MESSAGE value="about sime time changes here" />
+    <MESSAGE value="time update" />
+    <option name="LAST_COMMIT_MESSAGE" value="time update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1003,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/status/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="111" selection-start-line="26" selection-start-column="111" selection-end-line="26" selection-end-column="111" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/byphone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1022,15 +1011,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+        <state relative-caret-position="660">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/status/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state relative-caret-position="288">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

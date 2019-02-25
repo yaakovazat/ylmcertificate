@@ -18,13 +18,16 @@ def phone(request):
         else:
             telNumStatus = '0'
         (telephone.strip(' ')).strip('\n')
-        # if (telNumStatus == '1'):
-        #     ddinfo['value'] = key
-        # else:
-        #     ddinfo['value'] = '手机号不合法!'
+        ### time update
+        update_time = LastUpdateTime.objects.all().values('last_update_hand')
+        ###
+        if (telNumStatus == '1'):
+            ddinfo['value'] = key
+        else:
+            ddinfo['value'] = '手机号不合法!'
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
-    return render(request,'byphone.html',{'ddinfo':'order details will be here' , 'message':'sometime'})
+    return render(request,'byphone.html',{'ddinfo':'order details will be here' , 'message':update_time})
 
 
 def xlsx(request):
@@ -47,7 +50,7 @@ def xlsx(request):
             # read the updated time first
             ## update time
             dt = datetime.now()
-            keytime = dt.strftime('%Y年%m月%d日 %H时:%M分:%S秒')
+            keytime = dt.strftime('%Y年%m月%d日 %H时%M分%S秒')
             last_update_Value = LastUpdateTime()
             last_update_Value.unique_id = "lastUpdate"
             last_update_Value.last_update_hand = keytime
@@ -61,8 +64,8 @@ def xlsx(request):
                 ntel = int(row[3])
                 time_local_get = xldate_as_tuple(row[9], 0)
                 time_local_done = xldate_as_tuple(row[10], 0)
-                dt_get = datetime(*time_local_get).strftime('%Y年%m月%d日 %H时:%M分:%S秒')
-                dt_done = datetime(*time_local_done).strftime('%Y年%m月%d日 %H时:%M分:%S秒')
+                dt_get = datetime(*time_local_get).strftime('%Y年%m月%d日 %H时%M分%S秒')
+                dt_done = datetime(*time_local_done).strftime('%Y年%m月%d日 %H时%M分%S秒')
                 xlsx_data.append({
                     "data_updated": time_update,  # 更新时间
                     "ID": row[1],  # 订单编号
