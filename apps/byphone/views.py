@@ -1,13 +1,75 @@
 from django.shortcuts import render
 import re
-import json
 from azat import ROOT_DIR
 from datetime import datetime
 from .models import Order
 from data.update import fn
 # Create your views here.
+def xlsx(request):
+    if request.method == "POST":
+
+        f = request.FILES['my_file']
+        type_excel = f.name.split('.')[1]
+        if 'xlsx' == type_excel:
+            # get xlsx and read
+            workbook = xlrd.open_workbook(xlsx_file)
+            table = workbook.sheets()[0]
+            nrows = table.nrows
+
+            # read xlsx data
+            # read the updated time first
+            first_row = table.row_values(1)
+            time_update = first_row[0]
+            xlsx_data = []
+            for x in range(1, nrows):
+                row = table.row_values(x)
+                ntel = int(row[3])
+                time_local_get = xldate_as_tuple(row[9], 0)
+                time_local_done = xldate_as_tuple(row[10], 0)
+                dt_get = datetime(*time_local_get).strftime('%Y年%m月%d日 %H时:%M分:%S秒')
+                dt_done = datetime(*time_local_done).strftime('%Y年%m月%d日 %H时:%M分:%S秒')
+                xlsx_data.append({
+                    "data_updated": time_update,  # 更新时间
+                    "ID": row[1],  # 订单编号
+                    "order_name": row[2],  # 收件人 
+                    "order_phone": ntel,  # 电话 
+                    "order_group": row[4],  # 组别 
+                    "order_detail": row[5],  # 商品简述 
+                    "express": row[6],  # 快递公司 
+                    "express_id": row[7],  # 快递单号 
+                    "order_status": row[8],  # 订单状态 
+                    "order_get_time": dt_get,  # 下单日期 
+                    "order_done_time": dt_done,  # 审核日期 
+                    "external_ID": row[11]  # 外部订单号 
+                }
+                )
+                order = Order()
+                for each in xlsx_data:
+                    order.data_updated = each['data_updated']
+                    order.ID = each['ID']
+                    order.order_name = each['order_name']
+                    order.order_phone = each['order_phone']
+                    order.order_group = each['order_group']
+                    order.order_detail = each['order_detail']
+                    order.express = each['express']
+                    order.express_id =each['express_id']
+                    order.order_status = each['order_status']
+                    order.order_get_time = each['order_get_time']
+                    order.order_done_time = each['order_done_time']
+                    order.external_ID = each['external_ID']
+                    order.save()
+
+            except Exception as e:
+                return JsonResponse({'msg': '出现错误....'})
+
+            return JsonResponse({'msg': 'ok'})
+
+        return JsonResponse({'msg': '上传文件格式不是xlsx'})
+
+    return JsonResponse({'msg': '不是post请求'})
+
+
 def phone(request):
-    # ddinfo={}
     if(request.method == 'POST'):
         telephone = request.POST.get('telephone')
         if (re.match(r'1[3,4,5,7,8]\d{9}', telephone)):
@@ -22,3 +84,6 @@ def phone(request):
         dt = datetime.now()
         keytime = dt.strftime("%m%d%H%M%S")
     return render(request,'byphone.html',{'ddinfo':'order details will be here' , 'message':'sometime'})
+
+
+

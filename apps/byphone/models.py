@@ -8,7 +8,6 @@ class Order(models.Model):
     order_phone = models.CharField(max_length=20, verbose_name="手机号", default="")
     order_group = models.CharField(max_length=40, verbose_name="组别",default="")
     order_detail = models.CharField(max_length=200, verbose_name="商品描述", default="")
-    # express = models.EmailField(max_length=20, verbose_name="邮箱", default="")
     express = models.CharField(max_length=20, verbose_name="快递公司", default="中通快递")
     express_id = models.CharField(max_length=50, verbose_name="快递单号", default="")
     order_status = models.CharField(max_length=40, verbose_name="订单状态", default="正常")

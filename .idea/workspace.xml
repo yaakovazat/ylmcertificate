@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a3531acc-2eeb-46e5-be55-f1d9b91d6d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/byphone/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/byphone/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/byphone/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificate/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,30 +42,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/authorize.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/generate_key.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/byphone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="704">
               <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
             </state>
           </provider>
@@ -77,17 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="-243">
               <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="395">
+              <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -96,18 +77,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/byphone/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="88">
+              <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/xlsx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/certificate/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding>
+                <element signature="e#635#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/byphone/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="154">
               <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#32#61#0" expanded="true" />
@@ -121,9 +133,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -162,19 +174,21 @@
         <option value="$PROJECT_DIR$/apps/generate/typeW.py" />
         <option value="$PROJECT_DIR$/templates/certificate.html" />
         <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/certificate/urls.py" />
         <option value="$PROJECT_DIR$/static/css/byphone.css" />
         <option value="$PROJECT_DIR$/templates/byphone.html" />
         <option value="$PROJECT_DIR$/data/update_time.py" />
-        <option value="$PROJECT_DIR$/data/update/current.json" />
         <option value="$PROJECT_DIR$/data/update.py" />
-        <option value="$PROJECT_DIR$/apps/byphone/models.py" />
         <option value="$PROJECT_DIR$/certificate/settings.py" />
+        <option value="$PROJECT_DIR$/data/update/current.json" />
+        <option value="$PROJECT_DIR$/apps/byphone/models.py" />
+        <option value="$PROJECT_DIR$/templates/excel.html" />
+        <option value="$PROJECT_DIR$/templates/xlsx.html" />
         <option value="$PROJECT_DIR$/apps/byphone/views.py" />
+        <option value="$PROJECT_DIR$/certificate/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="130" />
     <option name="width" value="1680" />
     <option name="height" value="1050" />
@@ -200,24 +214,7 @@
             <path>
               <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="agentkeys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
               <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="byphone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="certificate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="certificate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="certificate" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,9 +238,9 @@
       <recent name="$PROJECT_DIR$/log" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/original" />
       <recent name="$PROJECT_DIR$/data/update" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/data/original" />
       <recent name="$PROJECT_DIR$/static/image" />
       <recent name="$PROJECT_DIR$/apps" />
     </key>
@@ -380,21 +377,8 @@
       <workItem from="1549874943068" duration="5477000" />
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
-      <workItem from="1550919976357" duration="11388000" />
-    </task>
-    <task id="LOCAL-00018" summary="send the form">
-      <created>1550929512316</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1550929512316</updated>
-    </task>
-    <task id="LOCAL-00019" summary="some files with css and give a try">
-      <created>1550930015899</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1550930015899</updated>
+      <workItem from="1550919976357" duration="12455000" />
+      <workItem from="1551067813189" duration="1530000" />
     </task>
     <task id="LOCAL-00020" summary="update the css file">
       <created>1550930127394</created>
@@ -725,21 +709,35 @@
       <option name="project" value="LOCAL" />
       <updated>1550940828013</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="ok this time">
+      <created>1550940899549</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940899549</updated>
+    </task>
+    <task id="LOCAL-00068" summary="update the model">
+      <created>1550989023068</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1550989023069</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51593000" />
+    <option name="totallyTimeSpent" value="54190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26434678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -750,7 +748,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32908705" />
       <window_info anchor="bottom" id="manage.py@certificate" order="10" weight="0.32908705" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32908705" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -763,8 +761,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ddinfo" />
-    <MESSAGE value="try" />
     <MESSAGE value="LastTime" />
     <MESSAGE value="jskdjs" />
     <MESSAGE value="djsaldna" />
@@ -788,16 +784,11 @@
     <MESSAGE value="ok for now" />
     <MESSAGE value="byphne" />
     <MESSAGE value="sometiem" />
-    <option name="LAST_COMMIT_MESSAGE" value="sometiem" />
+    <MESSAGE value="ok this time" />
+    <MESSAGE value="update the model" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the model" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/generate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/shortcuts.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/template/loader.py" />
@@ -912,26 +903,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/image/一路梦二维码.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificate/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/static/image/一路梦二维码.png" />
     <entry file="file://$PROJECT_DIR$/apps/authorize/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -986,39 +959,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/generate_key.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/byphone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/current.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/update/current.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/status/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1026,16 +968,6 @@
           <caret line="26" column="111" selection-start-line="26" selection-start-column="111" selection-end-line="26" selection-end-column="111" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#32#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1050,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/certificate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -1067,12 +992,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/update/current.json" />
+    <entry file="file://$PROJECT_DIR$/templates/generate_key.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/byphone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/current.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#32#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/original/order.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/excel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xlsx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/byphone/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/generate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        <state relative-caret-position="395">
+          <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificate/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
           </folding>
         </state>
       </provider>

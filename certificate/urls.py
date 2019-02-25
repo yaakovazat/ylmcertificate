@@ -20,6 +20,7 @@ from generate.views import certificate
 from authorize.views import authorize
 from agentkeys.views import getkey
 from byphone.views import phone
+from byphone.views import xlsx
 
 
 urlpatterns = [
@@ -29,4 +30,5 @@ urlpatterns = [
     path('',authorize,name='index'),
     path('key/',getkey),
     path('dd/',phone),
+    path('xlsx/',xlsx),
 ]
