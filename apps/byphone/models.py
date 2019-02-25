@@ -19,3 +19,15 @@ class Order(models.Model):
     class Meta:
         verbose_name = "订单详情"
         verbose_name_plural = verbose_name
+
+
+
+
+class LastUpdateTime(models.Model):
+    unique_id = models.CharField(primary_key=True, max_length=20,verbose_name="更新主键", default="")
+    last_update_value = models.CharField(max_length=100,verbose_name="最后更新时间", default="")
+
+
+    class Meta:
+        verbose_name = "更新记录"
+        verbose_name_plural = verbose_name
