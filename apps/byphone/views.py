@@ -23,12 +23,23 @@ def phone(request):
         update_time =time_in_db['last_update_hand']
         ###
         orders = []
+        results = []
         if (telNumStatus == '1'):
             tel_status = ''
             orders_in_db = Order.objects.filter(order_phone=telephone).values()
             for each in orders_in_db:
                 orders.append(each)
-            orders_info = orders_in_db
+            for each in orders:
+                result = "订单编号:%s\n" \
+                         "客户姓名:%s\n" \
+                         "电话:%s\n" \
+                         "快递公司:%s\n" \
+                         "快递单号:%s\n" \
+                         "订单状态:%s\n" \
+                         "下单日期:%s\n" \
+                         "审核日期:%s\n"each['ID'],each['order_name'],each['order_phone'],each['express'],each['express_id'],each['order_status'],each['order_get_time'],each['order_done_time']
+                results.append(result)
+            orders_info=results
         else:
             tel_status= "手机号不合法!"
             orders_info = ''
