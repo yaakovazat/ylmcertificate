@@ -24,7 +24,11 @@ def phone(request):
         ###
         orders = {}
         if (telNumStatus == '1'):
-            tel_status = telephone
+            tel_status = ''
+            orders_in_db = Order.objects.filter(order_phone=telephone)
+            for each in orders_in_db:
+                orders.append(each)
+            orders_info = orders
         else:
             tel_status= "手机号不合法!"
             orders_info = ''
