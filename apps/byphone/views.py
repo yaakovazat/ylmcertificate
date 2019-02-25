@@ -24,9 +24,9 @@ def phone(request):
         ###
         ddinfo = {}
         if (telNumStatus == '1'):
-            ddinfo['info'] = telephone
+            ddinfo = telephone
         else:
-            ddinfo['value'] = '手机号不合法!'
+            ddinfo= "手机号不合法!"
     else:
         time_in_db = LastUpdateTime.objects.all().values()[0]
         update_time = time_in_db['last_update_hand']
