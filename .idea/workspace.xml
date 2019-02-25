@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="32" column="172" selection-start-line="32" selection-start-column="172" selection-end-line="32" selection-end-column="172" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -327,14 +327,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="16081000" />
-    </task>
-    <task id="LOCAL-00083" summary="updated the url for xlsx.html">
-      <created>1551072440013</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1551072440013</updated>
+      <workItem from="1551067813189" duration="16334000" />
     </task>
     <task id="LOCAL-00084" summary="update">
       <created>1551072537324</created>
@@ -672,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551087197371</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="dsada">
+      <created>1551087295777</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1551087295777</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68741000" />
+    <option name="totallyTimeSpent" value="68994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -710,7 +710,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']" />
     <MESSAGE value="last_update_hand" />
     <MESSAGE value=".values('last_update_hand')" />
     <MESSAGE value="tttime_in_db = LastUpdateTime.objects.all().values('last_update_hand')&#10;        update_time =time_in_db" />
@@ -735,7 +734,8 @@
     <MESSAGE value="all string returned" />
     <MESSAGE value="i used the for statement in the tempalte" />
     <MESSAGE value="update the vslue ndjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the vslue ndjs" />
+    <MESSAGE value="dsada" />
+    <option name="LAST_COMMIT_MESSAGE" value="dsada" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1018,8 +1018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="32" column="172" selection-start-line="32" selection-start-column="172" selection-end-line="32" selection-end-column="172" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
