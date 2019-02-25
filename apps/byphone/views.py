@@ -22,8 +22,9 @@ def phone(request):
         time_in_db = LastUpdateTime.objects.all().values()[0]
         update_time =time_in_db['last_update_hand']
         ###
+        ddinfo = {}
         if (telNumStatus == '1'):
-            ddinfo['value'] = key
+            ddinfo['info'] = telephone
         else:
             ddinfo['value'] = '手机号不合法!'
 
