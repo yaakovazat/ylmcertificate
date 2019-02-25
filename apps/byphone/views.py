@@ -22,7 +22,7 @@ def phone(request):
         time_in_db = LastUpdateTime.objects.all().values()[0]
         update_time =time_in_db['last_update_hand']
         ###
-        ddinfo = {}
+        orders = {}
         if (telNumStatus == '1'):
             tel_status = telephone
         else:
@@ -31,7 +31,7 @@ def phone(request):
         time_in_db = LastUpdateTime.objects.all().values()[0]
         update_time = time_in_db['last_update_hand']
         return render(request, 'byphone.html', {'message': update_time})
-    return render(request, 'byphone.html', {'check_tel':tel_status ,'ddinfo': "订单详情", 'dddetails': ddinfo, 'message': update_time})
+    return render(request, 'byphone.html', {'order_details': orders,'check_tel':tel_status , 'message': update_time})
 
 def xlsx(request):
     if request.method == "POST":
