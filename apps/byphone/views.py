@@ -35,7 +35,8 @@ def xlsx(request):
         if('xlsx' == type_excel):
             # msg1 = " Microsoft xlsx 文件格式准确!"
             # get xlsx and read
-            workbook = xlrd.open_workbook(xlsx_file)
+            workbook = xlrd.open_workbook(filename=None, file_contents=f.read())
+            # workbook = xlrd.open_workbook(xlsx_file)
             table = workbook.sheets()[0]
             nrows = table.nrows
             msg2 = "总共读取到 %s 条订单记录!"%nrows
