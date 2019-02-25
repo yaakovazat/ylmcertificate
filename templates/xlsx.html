@@ -7,7 +7,7 @@
 <body>
     <form action="/xlsx/" method="post" enctype="multipart/form-data">
         <input type="file" name="my_file">
-        <input type="submit">
+        <input type="submit">{% csrf_token %}
     </form>
 文件读取状态:{{ msg1 }}<br>读取数据数量:{{ msg2 }}<br>保存状态:{{ msg3 }}
 </body>
