@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="372">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -337,21 +337,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="9448000" />
-    </task>
-    <task id="LOCAL-00053" summary="update">
-      <created>1550938198215</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1550938198215</updated>
-    </task>
-    <task id="LOCAL-00054" summary="固定时间尝试一下">
-      <created>1550938335847</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1550938335847</updated>
+      <workItem from="1551067813189" duration="9751000" />
     </task>
     <task id="LOCAL-00055" summary="interesting staff">
       <created>1550939221183</created>
@@ -682,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551079222893</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="last_update_hand">
+      <created>1551079318874</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1551079318874</updated>
+    </task>
+    <task id="LOCAL-00103" summary="last_update_hand">
+      <created>1551079541049</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1551079541049</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62108000" />
+    <option name="totallyTimeSpent" value="62411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -720,7 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update 前段文件" />
     <MESSAGE value="msg1" />
     <MESSAGE value="try msg3" />
     <MESSAGE value="addform" />
@@ -745,7 +744,8 @@
     <MESSAGE value="get or filter" />
     <MESSAGE value="all ?" />
     <MESSAGE value="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']" />
-    <option name="LAST_COMMIT_MESSAGE" value="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']" />
+    <MESSAGE value="last_update_hand" />
+    <option name="LAST_COMMIT_MESSAGE" value="last_update_hand" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1028,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="372">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
