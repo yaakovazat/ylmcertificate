@@ -3,6 +3,7 @@ import re
 from azat import ROOT_DIR
 from datetime import datetime
 from .models import Order
+from .models import LastUpdateTime
 import xlrd
 from xlrd import xldate_as_tuple
 from data.update import fn
@@ -70,6 +71,8 @@ def xlsx(request):
                 }
                 )
                 order = Order()
+                last_update_Value = LastUpdateTime()
+                last_update_Value.last_update_value = xlsx_data[0]['data_updated']
                 for each in xlsx_data:
                     order.data_updated = each['data_updated']
                     order.ID = each['ID']
@@ -85,6 +88,8 @@ def xlsx(request):
                     order.external_ID = each['external_ID']
                     order.save()
                 msg3 = "所有记录保存成功!"
+
+
     else:  # 当正常访问时
         msg1 = ""
         msg2 = ""
