@@ -31,8 +31,7 @@ def phone(request):
         keytime = dt.strftime("%m%d%H%M%S")
 
     time_in_db = LastUpdateTime.objects.all()
-    for each in time_in_db:
-        update_time = each['last_update_hand']
+    update_time = time_in_db[0]
 
     return render(request,'byphone.html',{'ddinfo':'订单详情' , 'message':update_time})
 
