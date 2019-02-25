@@ -31,7 +31,8 @@ def xlsx(request):
         type_excel = f.name.split('.')[1]
         if 'xlsx' != type_excel:
             msg1 = "目前仅支持 Microsoft xlsx 文件格式!"
-        if 'xlsx' == type_excel:
+        else:
+            msg1 = " Microsoft xlsx 文件格式准确!"
             # get xlsx and read
             workbook = xlrd.open_workbook(xlsx_file)
             table = workbook.sheets()[0]
