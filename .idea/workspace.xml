@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="532">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -337,21 +337,7 @@
       <workItem from="1550136969075" duration="25000" />
       <workItem from="1550917055762" duration="374000" />
       <workItem from="1550919976357" duration="12455000" />
-      <workItem from="1551067813189" duration="9270000" />
-    </task>
-    <task id="LOCAL-00051" summary="gainfhsdjf">
-      <created>1550936130962</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1550936130962</updated>
-    </task>
-    <task id="LOCAL-00052" summary="try agin">
-      <created>1550937856554</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1550937856554</updated>
+      <workItem from="1551067813189" duration="9448000" />
     </task>
     <task id="LOCAL-00053" summary="update">
       <created>1550938198215</created>
@@ -682,11 +668,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551078896432</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']">
+      <created>1551079116538</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1551079116538</updated>
+    </task>
+    <task id="LOCAL-00101" summary="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']">
+      <created>1551079222893</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1551079222893</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61930000" />
+    <option name="totallyTimeSpent" value="62108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -720,7 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated the update view" />
     <MESSAGE value="update 前段文件" />
     <MESSAGE value="msg1" />
     <MESSAGE value="try msg3" />
@@ -745,7 +744,8 @@
     <MESSAGE value="dd 更新" />
     <MESSAGE value="get or filter" />
     <MESSAGE value="all ?" />
-    <option name="LAST_COMMIT_MESSAGE" value="all ?" />
+    <MESSAGE value="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']" />
+    <option name="LAST_COMMIT_MESSAGE" value="time_in_db = LastUpdateTime.objects.all()&#10;        for each in time_in_db:&#10;            update_time = each['last_update_hand']" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f9abb7e-fa10-4d6f-ade4-80c7326a7acd/console.sql" />
@@ -1028,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/byphone/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="532">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
