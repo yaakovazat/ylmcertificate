@@ -24,11 +24,10 @@ SECRET_KEY = '1n7366gk3s&v!$wy9iq#08$8)0ivdexh92zn2r9$b9gtx4w8c5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    '0.0.0.0',
-                ]
+ALLOWED_HOSTS = ['*',
+                 'http://yaakovazat.pythonanywhere.com/',
+                 '0.0.0.0',
+                 '127.0.0.1',]
 
 
 # Application definition
@@ -45,6 +44,7 @@ INSTALLED_APPS = [
     'check',
     'generate',
     'agentkeys',
+    'byphone',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +128,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR, 'static'))
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'static'),
-]
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR,'static'),
+# ]

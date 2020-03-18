@@ -3,3 +3,9 @@ __pycache__
 myvenv
 db.sqlite3
 .DS_Store
+form
+venv/
+*venv
+/venv
+/venv/
+/venv/

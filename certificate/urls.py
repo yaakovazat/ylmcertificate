@@ -19,7 +19,8 @@ from status.views import get_status
 from generate.views import certificate
 from authorize.views import authorize
 from agentkeys.views import getkey
-
+from byphone.views import phone
+from byphone.views import xlsx
 
 
 urlpatterns = [
@@ -27,5 +28,7 @@ urlpatterns = [
     path('status/', get_status),
     path('form/',certificate),
     path('',authorize,name='index'),
-    path('key/',getkey)
+    path('key/',getkey),
+    path('dd/',phone),
+    path('xlsx/',xlsx),
 ]
